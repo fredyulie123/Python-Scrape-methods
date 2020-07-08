@@ -1,49 +1,49 @@
 # python-scrape
 Scrape data by using bs4, selenium
 
-========
+
 bs4 Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
 
 Running the “three sisters” document through Beautiful Soup gives us a BeautifulSoup object, which represents the document as a nested data structure:
 
-from bs4 import BeautifulSoup
-soup = BeautifulSoup(html_doc, 'html.parser')
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html_doc, 'html.parser')
 
-print(soup.prettify())
-# <html>
-#  <head>
-#   <title>
-#    The Dormouse's story
-#   </title>
-#  </head>
-#  <body>
-#   <p class="title">
-#    <b>
-#     The Dormouse's story
-#    </b>
-#   </p>
-#   <p class="story">
-#    Once upon a time there were three little sisters; and their names were
-#    <a class="sister" href="http://example.com/elsie" id="link1">
-#     Elsie
-#    </a>
-#    ,
-#    <a class="sister" href="http://example.com/lacie" id="link2">
-#     Lacie
-#    </a>
-#    and
-#    <a class="sister" href="http://example.com/tillie" id="link3">
-#     Tillie
-#    </a>
-#    ; and they lived at the bottom of a well.
-#   </p>
-#   <p class="story">
-#    ...
-#   </p>
-#  </body>
-# </html>
+    print(soup.prettify())
+    # <html>
+    #  <head>
+    #   <title>
+    #    The Dormouse's story
+    #   </title>
+    #  </head>
+    #  <body>
+    #   <p class="title">
+    #    <b>
+    #     The Dormouse's story
+    #    </b>
+    #   </p>
+    #   <p class="story">
+    #    Once upon a time there were three little sisters; and their names were
+    #    <a class="sister" href="http://example.com/elsie" id="link1">
+    #     Elsie
+    #    </a>
+    #    ,
+    #    <a class="sister" href="http://example.com/lacie" id="link2">
+    #     Lacie
+    #    </a>
+    #    and
+    #    <a class="sister" href="http://example.com/tillie" id="link3">
+    #     Tillie
+    #    </a>
+    #    ; and they lived at the bottom of a well.
+    #   </p>
+    #   <p class="story">
+    #    ...
+    #   </p>
+    #  </body>
+    # </html>
 
-========
+
 Selenium  Selenium is a suite of tools for automating web browsers.
 
 Selenium WebDriver  If you want to create robust, browser-based regression automation suites and tests, scale and distribute scripts across many environments, then you want to use Selenium WebDriver, a collection of language specific bindings to drive a browser - the way it is meant to be driven.
