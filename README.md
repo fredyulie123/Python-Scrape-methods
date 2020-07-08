@@ -2,7 +2,7 @@
 Scrape data by using bs4, selenium
 
 
-bs4 Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
+bs4 --- Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
 
 Running the “three sisters” document through Beautiful Soup gives us a BeautifulSoup object, which represents the document as a nested data structure:
 
@@ -44,7 +44,7 @@ Running the “three sisters” document through Beautiful Soup gives us a Beaut
     # </html>
 
 
-Selenium  Selenium is a suite of tools for automating web browsers.
+Selenium --- Selenium is a suite of tools for automating web browsers.
 
 Selenium WebDriver  If you want to create robust, browser-based regression automation suites and tests, scale and distribute scripts across many environments, then you want to use Selenium WebDriver, a collection of language specific bindings to drive a browser - the way it is meant to be driven.
 Selenium IDE  If you want to create quick bug reproduction scripts, create scripts to aid in automation-aided exploratory testing, then you want to use Selenium IDE; a Chrome and Firefox add-on that will do simple record-and-playback of interactions with the browser.
